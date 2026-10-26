@@ -1,16 +1,21 @@
 <div align="center">
 
-<!-- Üst Dalgalı Gradient Banner (Hareketli Görünüm) -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,23,28,30&height=240&section=header&text=%C3%96zel%20Ders%20VIP&fontSize=52&fontAlignY=38&animation=twinkling&desc=Gelece%C4%9Fin%20Modern%20%C3%96zel%20Ders%20%26%20E%C4%9Fitmen%20Platformu&descSize=20&descAlignY=62&fontColor=ffffff" width="100%" alt="Özel Ders VIP Header" />
+<!-- Proje Logosu -->
+<a href="https://github.com/Emrekoc2506/ogretmen_React">
+  <img src="public/logo.png" width="420" alt="Özel Ders VIP Logo" />
+</a>
 
-<!-- Dinamik Daktilo (Typing) Animasyonu -->
+<br/>
+<br/>
+
+<!-- Tek Satır Akıcı Daktilo Animasyonu (Üst Üste Binme Düzeltildi) -->
 <a href="#">
-  <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=700&size=21&duration=2800&pause=1000&color=6366F1&center=true&vCenter=true&multiline=true&width=700&height=80&lines=%F0%9F%8E%93+Uzman+%C3%96%C4%9Fretmenler+ile+Potansiyelini+A%C3%A7%C4%B1%C4%9Fa+%C3%87%C4%B1kar!;%E2%9A%A1+SignalR+G%C3%BCc%C3%BCyle+Ger%C3%A7ek+Zamanl%C4%B1+Sohbet+%26+Anl%C4%B1k+Bildirimler;%F0%9F%92%8E+Geli%C5%9Fmi%C5%9F+Doping+Sistemi+ile+%C3%96ne+%C3%87%C4%B1kan+%C4%B0lanlar;%F0%9F%9A%80+React+19+%E2%80%A2+Vite+8+%E2%80%A2+Tailwind+CSS+%E2%80%A2+Zustand+%E2%80%A2+TanStack" alt="Typing Banner" />
+  <img src="https://readme-typing-svg.demolab.com?font=Plus+Jakarta+Sans&weight=700&size=22&duration=3000&pause=1200&color=3B82F6&center=true&vCenter=true&width=700&height=45&lines=%F0%9F%8E%93+Uzman+%C3%96%C4%9Fretmenler+ile+Potansiyelini+A%C3%A7%C4%B1%C4%9Fa+%C3%87%C4%B1kar!;%E2%9A%A1+SignalR+G%C3%BCc%C3%BCyle+Ger%C3%A7ek+Zamanl%C4%B1+Sohbet+%26+Bildirimler;%F0%9F%92%8E+Geli%C5%9Fmi%C5%9F+Doping+Sistemi+ile+%C3%96ne+%C3%87%C4%B1kan+%C4%B0lanlar;%F0%9F%9A%80+React+19+%E2%80%A2+Vite+8+%E2%80%A2+Tailwind+CSS+%E2%80%A2+Zustand" alt="Typing SVG Banner" />
 </a>
 
 <br/>
 
-<!-- Modern Teknoloji & Durum Rozetleri (Badges) -->
+<!-- Teknoloji Rozetleri -->
 <p align="center">
   <img src="https://img.shields.io/badge/React-19.2.4-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React 19" />
   <img src="https://img.shields.io/badge/Vite-8.0.4-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
@@ -124,7 +129,7 @@ Aşağıdaki adımları takip ederek projeyi dakikalar içinde yerel geliştirme
 
 ### 1. Repoyu Klonlayın
 ```bash
-git clone https://github.com/kullanici-adi/ozel_hoca.git
+git clone https://github.com/Emrekoc2506/ogretmen_React.git
 cd ozel_hoca
 ```
 
@@ -146,9 +151,9 @@ VITE_FIREBASE_MESSAGING_SENDER_ID="your-sender-id"
 VITE_FIREBASE_APP_ID="your-app-id"
 VITE_FIREBASE_VAPID_KEY="your-vapid-key"
 
-# Backend API & SignalR Hub URL (Gerekliyse)
-VITE_API_URL="https://api.ozeldersvip.com"
-VITE_SIGNALR_HUB_URL="https://api.ozeldersvip.com/chatHub"
+# Backend API & SignalR Hub URL
+VITE_API_BASE_URL="https://api.ozeldersvip.com"
+VITE_SIGNALR_URL="https://api.ozeldersvip.com/chat"
 ```
 
 ### 4. Geliştirme Sunucusunu Başlatın
@@ -192,8 +197,7 @@ Katkılarınızı memnuniyetle kabul ediyoruz! Bir özelliği geliştirmek veya 
 
 <br/>
 
-<!-- Alt Dalgalı Gradient Banner (Hareketli Kapanış) -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=30,28,23,12,6&height=130&section=footer" width="100%" alt="Footer Wave" />
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="divider" />
 
 <p align="center">
   <sub>Tüm hakları saklıdır © 2026 <b>Özel Ders VIP Ekibi</b>. Sevgi ve kodla üretildi. ❤️</sub>
